@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <footer class="footer">
+            <footer className="footer">
 
-                <div class="container container-footer">
-                    <div class="row row-footer">
-                            <div class="col-lg-3 footer-col-1">
+                <div className="container container-footer">
+                    <div className="row row-footer">
+                            <div className="col-lg-3 footer-col-1">
                             <h4>Our localization</h4>
                             <p>
                                 Envato
@@ -18,76 +18,76 @@ const Footer = () => {
                                 <br/>
                                 Australia
                             </p>
-                            <div class="social">
-                                <span class="fb"></span>
-                                <span class="tw"></span>
-                                <span class="pint"></span>
+                            <div className="social">
+                                <span className="fb"></span>
+                                <span className="tw"></span>
+                                <span className="pint"></span>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 footer-col-2">
+                        <div className="col-lg-3 footer-col-2">
                             <h4>Get healthy knowledge every week</h4>
                             <form action="">
-                                <input class="input-email" type="text" placeholder="Email"/>
+                                <input className="input-email" type="text" placeholder="Email"/>
                             </form>
-                            <div class="footer-btn">
+                            <div className="footer-btn">
                                 <a href="">Sudscribe</a>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                         </div>
 
-                        <div class="col-lg-3 footer-col-3">
+                        <div className="col-lg-3 footer-col-3">
                             <ul>
-                                <li class="li-1">
-                                    <a class="a-point" href="">Stet clita kasd</a>
+                                <li className="li-1">
+                                    <a className="a-point" href="">Stet clita kasd</a>
                                 </li>
-                                <li class="li-2">
-                                    <a class="a-point" href="">Gubergren, no sea</a>
+                                <li className="li-2">
+                                    <a className="a-point" href="">Gubergren, no sea</a>
                                 </li>
-                                <li class="li-3">
-                                    <a class="a-point" href="">Takimata sanctus est</a>
+                                <li className="li-3">
+                                    <a className="a-point" href="">Takimata sanctus est</a>
                                 </li>
-                                <li class="li-4">
-                                    <a class="a-point" href="">Duis autem vel eum</a>
+                                <li className="li-4">
+                                    <a className="a-point" href="">Duis autem vel eum</a>
                                 </li>
-                                <li class="li-5">
-                                    <a class="a-point" href="">Iriure dolor in esse</a>
+                                <li className="li-5">
+                                    <a className="a-point" href="">Iriure dolor in esse</a>
                                 </li>
-                                <li class="li-6">
-                                    <a class="a-point" href="">Molestie consequat</a>
+                                <li className="li-6">
+                                    <a className="a-point" href="">Molestie consequat</a>
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="col-lg-3 footer-col-4">
+                        <div className="col-lg-3 footer-col-4">
                             <ul>
-                                <li class="li-7">
-                                    <a class="a-point" href="">Illum dolore eu eros</a>
+                                <li className="li-7">
+                                    <a className="a-point" href="">Illum dolore eu eros</a>
                                 </li>
-                                <li class="li-8">
-                                    <a class="a-point" href="">Et accumsan et iusto</a>
+                                <li className="li-8">
+                                    <a className="a-point" href="">Et accumsan et iusto</a>
                                 </li>
-                                <li class="li-9">
-                                    <a class="a-point" href="">Consectetuer adipiscing elit</a>
+                                <li className="li-9">
+                                    <a className="a-point" href="">Consectetuer adipiscing elit</a>
                                 </li>
-                                <li class="li-10">
-                                    <a class="a-point" href="">Eleifend option congue</a>
+                                <li className="li-10">
+                                    <a className="a-point" href="">Eleifend option congue</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="full-container">
-                    <div class="container">
-                        <div class="row row-reserved">
-                            <div class="col-lg-11 reserved">
+                <div className="full-container">
+                    <div className="container">
+                        <div className="row row-reserved">
+                            <div className="col-lg-11 reserved">
                                 <p>
                                     © 2021 BeDietitian 3 - Betheme. All Rights Reserved.
                                 </p>
                             </div>
 
-                            <div class="col-lg-1 back-to-start">
+                            <div className="col-lg-1 back-to-start">
                                 <img src="img/free-icon-up-chevron-2089643.png" alt=""/>
                             </div>
                         </div>

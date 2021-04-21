@@ -7,14 +7,14 @@ import blogs from './blogs'
 const BlogList = ()=> {
     return (
         <>
-            <div class="row row-blog">
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6">
-                            <h3 class="blog-h3">Plenty of recipes, advices and good stuff ;)</h3>
+            <div className="row row-blog">
+                <div className="col-lg-12">
+                    <div className="row">
+                        <div className="col-lg-3"></div>
+                        <div className="col-lg-6">
+                            <h3 className="blog-h3">Plenty of recipes, advices and good stuff ;)</h3>
                         </div>
-                        <div class="col-lg-3"></div>
+                        <div className="col-lg-3"></div>
                     </div>
                 </div>
 
