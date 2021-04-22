@@ -5,6 +5,7 @@ import Slider from './Blog/Slider/Slider'
 import BlogList from './Blog/BlogList'
 import BlogPage from './Blog/BlogPage/BlogPage'
 import ServiceAndPricingPage from './ServiceAndPricing/ServiceAndPricingPage'
+import YouAreWhatYouEat from './YouAreWhatYouEat/YouAreWhatYouEat'
 
 const Main = () => {
     return (
@@ -21,6 +22,13 @@ const Main = () => {
                         
                     </div>
                 </div>
+
+                <div class="content">
+                    <div class="container">
+                        <YouAreWhatYouEat/>
+                    </div>
+                </div>
+
                 <div className="price">
                     <div className="container container-price">
                         <div className="row row-price">

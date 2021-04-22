@@ -195,9 +195,11 @@
 
      
     .content {
+        background-color: #fff;
         padding-top: 100px;
         padding-bottom: 95px;
         width: 100%;
+        margin-top: 100px;
     }
 
     .row-columns {
@@ -216,6 +218,8 @@
         line-height: 45px;
         font-weight: 600;
         color: #256245;
+        margin-bottom: 40px;
+        margin-top: 15px;
     }
 
     .theme-diet{
