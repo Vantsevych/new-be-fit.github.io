@@ -543,9 +543,8 @@
 
 /* Footer */
     .container-footer {
-        margin-top: 40px;
+        margin-top: 200px;
         padding: 40px 0 20px 0;
-        border-top: 1px solid rgba(58, 57, 57, 0.09);
         line-height: 30px;
     }
 

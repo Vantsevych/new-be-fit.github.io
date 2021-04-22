@@ -5,29 +5,30 @@ import Slider from './Blog/Slider/Slider'
 import BlogList from './Blog/BlogList'
 import BlogPage from './Blog/BlogPage/BlogPage'
 import ServiceAndPricingPage from './ServiceAndPricing/ServiceAndPricingPage'
-import YouAreWhatYouEat from './YouAreWhatYouEat/YouAreWhatYouEat'
+// import YouAreWhatYouEat from './YouAreWhatYouEat/YouAreWhatYouEat'
+import ReadMore from "./ReadMore/ReadMore"
 
 const Main = () => {
     return (
         <>
             <main className="main">
                 <Route path="/" exact component={Slider}/>
-
+                
 {/* Blog  */}
 
                 <div className="blog">
                     <div className="container blog-container">
                         <Route path="/" exact component={BlogList}/>
                         <Route path="/BlogPage" exact component={BlogPage}/>
-                        
+                        <Route path="/ReadMore" exact component={ReadMore}/>
                     </div>
                 </div>
 
-                <div class="content">
+                {/* <div class="content">
                     <div class="container">
                         <YouAreWhatYouEat/>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="price">
                     <div className="container container-price">

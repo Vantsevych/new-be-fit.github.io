@@ -1,4 +1,5 @@
 import React, { Component} from 'react'
+import { Link } from 'react-router-dom';
 
 
 class BlogListItem extends Component {
@@ -66,7 +67,7 @@ class BlogListItem extends Component {
                             <span className="date">{date}</span>
                         </span>
                         <div className="read-more">
-                            <a href="/">{readMore}</a>
+                            <Link to="/ReadMore">{readMore}</Link>
                         </div>
                     </div>
                 </div>
