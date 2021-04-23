@@ -17,10 +17,11 @@ const Main = () => {
 {/* Blog  */}
 
                 <div className="blog">
+                      <Route path="/ReadMore" exact component={ReadMore}/>
                     <div className="container blog-container">
                         <Route path="/" exact component={BlogList}/>
                         <Route path="/BlogPage" exact component={BlogPage}/>
-                        <Route path="/ReadMore" exact component={ReadMore}/>
+                      
                     </div>
                 </div>
 

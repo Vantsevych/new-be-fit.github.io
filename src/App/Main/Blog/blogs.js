@@ -1,8 +1,11 @@
 
 
 const blogs = [ 
-    {
+    {   
         id:1,
+        category1:"Breakfest",
+        category2:"Diet trips",
+        category3:"Recepties",
         image:"images/dietitian3-blog-pic1.png",
         iconHurt:"images/icon-hurt.png",
         iconClock:"images/clock.png",
@@ -15,6 +18,9 @@ const blogs = [
     },
     {
         id:2,
+        category1:"Breakfest",
+        category2:"Diet trips",
+        category3:"Recepties",
         image:"images/dietitian3-blog-pic2.png",
         iconHurt:"images/icon-hurt.png",
         iconClock:"images/clock.png",
@@ -27,6 +33,9 @@ const blogs = [
     },
     {
         id:3,
+        category1:"Breakfest",
+        category2:"Diet trips",
+        category3:"Recepties",
         image:"images/dietitian3-blog-pic3.png",
         iconHurt:"images/icon-hurt.png",
         iconClock:"images/clock.png",
@@ -39,6 +48,9 @@ const blogs = [
     },
     {
         id:4,
+        category1:"Breakfest",
+        category2:"Diet trips",
+        category3:"Recepties",
         image:"images/dietitian3-blog-pic4.png",
         iconHurt:"images/icon-hurt.png",
         iconClock:"images/clock.png",

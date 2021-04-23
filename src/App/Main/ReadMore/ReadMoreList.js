@@ -1,39 +1,46 @@
 import React from 'react'
 import articles from './articles'
 import ReadMoreItem from './ReadMoreItem'
-import articles from './articles'
 
 const ReadMoreList = () => {
     return (
         <>
             {
                 articles.map(({
+                    id,
                     title,
-                    imageMain,
+                    iconUser,
                     imageClock,
                     date,
-                    imageBefore,
+                    imageMain,
                     textTitle,
-                    textFirst,
-                    textSecond,
+                    textFirst,    
+                    textSecond,    
                     firstText,
                     secondTextH4,
                     secondText,
-                    iconHurt
+                    iconHurt,
+                    userComment,
+                    imageBefore
+
+                    
+                
                     }) => (
-                        <ReadMoreItem
-                        title={title}
-                        imageMain={imageMain}
-                        imageClock={imageClock}
-                        date={date}
-                        imageBefor={imageBefore}
-                        textTitle={textTitle}
-                        textFirst={textFirst}
-                        textSecond={textSecond}
-                        firstText={firstText}
-                        secondTextH4={secondTextH4}
-                        secondText={secondText}
-                        iconHurt={iconHurt}
+                        <ReadMoreItem key={id}
+                            title={title}
+                            iconUser={iconUser}
+                            imageMain={imageMain}
+                            imageClock={imageClock}
+                            date={date}
+                            imageBefor={imageBefore}
+                            textTitle={textTitle}
+                            textFirst={textFirst}
+                            textSecond={textSecond}
+                            firstText={firstText}
+                            secondTextH4={secondTextH4}
+                            secondText={secondText}
+                            iconHurt={iconHurt}
+                            userComment={userComment}
                         />
                     ))
             }

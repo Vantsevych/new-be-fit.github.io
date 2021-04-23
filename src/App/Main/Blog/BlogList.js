@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BlogListItem from './blogListItem'
+import BlogListItem from './BlogListItem'
 import blogs from './blogs'
 
 
@@ -21,6 +21,9 @@ const BlogList = ()=> {
                             {
                     blogs.map (({
                         id,
+                        category1,
+                        category2,
+                        category3,
                         image,
                         iconHurt,
                         iconClock,
@@ -33,6 +36,9 @@ const BlogList = ()=> {
                     }) => ( 
                          <div className = "col-lg-6 new-blog " key={id}>
                             <BlogListItem
+                                category1={category1}
+                                category2={category2}
+                                category3={category3}
                                 image={image}
                                 iconHurt={iconHurt}
                                 iconClock={iconClock}

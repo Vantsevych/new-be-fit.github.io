@@ -16,6 +16,9 @@ class BlogListItem extends Component {
 
     render () {
             const {
+                category1,
+                category2,
+                category3,
                 image,
                 iconHurt,
                 iconClock,
@@ -39,13 +42,13 @@ class BlogListItem extends Component {
                 <div className="blog-1-user">
                     <ul className="post-categories">
                         <li className="categories-tag">
-                            <a href="/">Breacfest</a>
+                            <a href="/">{category1}</a>
                         </li>
                         <li className="categories-tag">
-                            <a href="/">Diet tips</a>
+                            <a href="/">{category2}</a>
                         </li>
                         <li className="categories-tag">
-                            <a href="/">Recepties</a>
+                            <a href="/">{category3}</a>
                         </li>
                     </ul>
 
